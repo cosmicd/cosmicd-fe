@@ -9,11 +9,14 @@ export default class DemoList extends React.Component {
       <div className="demos">
         <PageHeader>Progressive web app demos </PageHeader>
         <ListGroup>
+        <ListGroupItem href="/demos/web/notes-service" target="_blank">
+            React, bootstrap, serverless notes-service
+          </ListGroupItem>
+          <ListGroupItem href="/demos/web/skyed" target="_blank">
+            jquery, bootstrap browser app
+          </ListGroupItem>
           <ListGroupItem href="/demos/web/react-pwa-mui" target="_blank">
             React, material-ui navbar
-          </ListGroupItem>
-          <ListGroupItem href="/demos/web/notes-service" target="_blank">
-            React, bootstrap, serverless notes-service
           </ListGroupItem>
         </ListGroup>
       </div>
