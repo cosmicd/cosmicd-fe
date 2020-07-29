@@ -7,7 +7,7 @@ export default class DemoList extends React.Component {
     //console.log(this.props);
     return (
       <div className="demos">
-        <PageHeader>Progressive web app demos </PageHeader>
+        <PageHeader> web-app demos </PageHeader>
         <ListGroup>
         <ListGroupItem href="/demos/web/notes-service" target="_blank">
             React, bootstrap, serverless notes-service
